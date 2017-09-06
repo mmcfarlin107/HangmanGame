@@ -1,0 +1,15 @@
+h1{
+  font-size: 3rem;
+}
+.instructions{
+  font-size: 1.25rem;
+  max-width: 500px;
+  text-align: center;
+}
+
+.letter{
+  border-bottom: 1px black solid;
+  min-width: 50px;
+  display: inline-block;
+  margin: 10vh 5px;
+}

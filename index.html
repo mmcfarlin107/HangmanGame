@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hangman Game</title>
+
+<!-- Bootstrap CDN -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+<!-- jQuery CDN -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header class="row justify-content-center">
+    <h1> Hangman </h1>
+  </header>
+  <div class = "row justify-content-center">
+    <h2 class = "instructions"> Player 1 enters their word.  Player 2 then will try to guess the letters to make up the word
+    </h2>
+  </div>
+  <div class = "row justify-content-center">
+    <div class="col-xs-12">
+      <form>
+      <div class="row justify-content-center">
+        <div class="col-xs-9">
+          <input id="userWord" type="password" placeholder="Enter Word">
+        </div>
+        <div class="col-xs-3">
+          <button type="button" id="wordBtn"> Enter! </button>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-xs-9">
+        <input type="text" placeholder="Enter Letter" id="userLetter">
+      </div>
+      <div class="col-xs-3">
+        <button type="button" id="letterBtn"> Enter! </button>
+      </div>
+  </div>
+</form>
+</div>
+</div>
+      <div class = "row justify-content-center">
+        <div id="wordZone" class="col-xs-12">
+      </div>
+</div>
+
+</body>
+</html>
