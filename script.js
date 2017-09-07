@@ -12,6 +12,8 @@ $(document).ready(function() {
     }
   })
 
+  //function to check guess against the actual correct word.  If it is correct, the code exexcutes to place the letter on the correct <p>
+
   $('#letterBtn').click(function() {
     var guess = $('#userLetter').val().toUpperCase();
     var guessCorrect = false;
