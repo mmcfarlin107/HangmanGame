@@ -1,5 +1,14 @@
 h1 {
   font-size: 3rem;
+  margin: 10px;
+}
+
+h2{
+  margin: 10px;
+}
+
+input, button{
+  margin: 5px 0px;
 }
 
 .instructions {
@@ -12,13 +21,14 @@ h1 {
   border-bottom: 1px black solid;
   min-width: 50px;
   display: inline-block;
-  margin: 20% 5px;
-  vertical-align: bottom;
+  margin: 5px;
   text-align: center;
+  height: 30px;
 }
 
 #wordZone {
   border: 5px black solid;
-  min-height: 200px;
+  min-height: 100px;
   min-width: 90%;
+  margin: 10px;
 }
