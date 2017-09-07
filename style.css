@@ -1,17 +1,20 @@
-h1{
+h1 {
   font-size: 3rem;
 }
-.instructions{
+
+.instructions {
   font-size: 1.25rem;
   max-width: 500px;
   text-align: center;
 }
 
-.letter{
+.letter {
   border-bottom: 1px black solid;
   min-width: 50px;
   display: inline-block;
-  margin: 10vh 5px;
+  margin: 20% 5px;
+  vertical-align: bottom;
+  text-align: center;
 }
 
 #wordZone {
