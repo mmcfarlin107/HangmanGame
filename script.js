@@ -11,6 +11,7 @@ $(document).ready(function() {
       $('#userWord').val('');
     }
     $("#userWord").prop('disabled', true);
+    $("#wordBtn").prop('disabled', true);
   })
 
   //function to check guess against the actual correct word.  If it is correct, the code exexcutes to place the letter on the correct <p>
