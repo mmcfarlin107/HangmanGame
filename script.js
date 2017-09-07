@@ -21,10 +21,10 @@ $(document).ready(function() {
         guessCorrect = true;
     }
 }
-    if(!guessCorrect){
-      $('#wrongZone').append('<span>' + guess + '</span>')
+    if(guessCorrect){
+
     } else {
-      // add to right spot in empty spaces
+            $('#wrongZone').append('<span>' + guess + '</span>')
     }
     //clears the guess
     $('#userLetter').val('');

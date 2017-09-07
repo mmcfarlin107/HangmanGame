@@ -13,3 +13,9 @@ h1{
   display: inline-block;
   margin: 10vh 5px;
 }
+
+#wordZone {
+  border: 5px black solid;
+  min-height: 200px;
+  min-width: 90%;
+}
