@@ -12,10 +12,22 @@ $(document).ready(function() {
     }
   })
 
-  $('#guessBtn').click(function() {
+  $('#letterBtn').click(function() {
+    var guess = $('#userLetter').val();
+    var guessCorrect = false;
 
+    for(var i = 1; i <= userWord.length; i++){
+      if (userWord.charAt(i) == guess){
+        guessCorrect = true;
+    }
+}
+    if(!guessCorrect){
+      $('#wrongZone').append('<span>' + guess + '</span>')
+    } else {
+      // add to right spot in empty spaces
+    }
     //clears the guess
-    $('#guessWord').val('');
+    $('#userLetter').val('');
   })
 
 
