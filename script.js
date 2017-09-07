@@ -10,6 +10,7 @@ $(document).ready(function() {
       console.log(userWord + ' ' + i);
       $('#userWord').val('');
     }
+    $("#userWord").prop('disabled', true);
   })
 
   //function to check guess against the actual correct word.  If it is correct, the code exexcutes to place the letter on the correct <p>
