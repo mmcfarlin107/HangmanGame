@@ -32,3 +32,29 @@ input, button{
   min-width: 90%;
   margin: 10px;
 }
+
+.popup{
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, 0%);
+  background-color: rgba(200,200,200,0.8);
+  border-radius: 5px;
+  width: 250px;
+  height: 200px;
+  text-align: center;
+  vertical-align: middle;
+  opacity: 50%;
+}
+
+.hideThis {
+  display: none;
+}
+
+.popupPara{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+font-size: 1.5rem;
+}

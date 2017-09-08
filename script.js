@@ -43,8 +43,8 @@ $(document).ready(function() {
 
           if (counter == userWord.length) {
             setTimeout(function() {
-              alert("You Win!")
-            }, 100)
+              $('#Popup').removeClass('hideThis');
+            }, 300)
           }
         })
         //Closing out document.ready
